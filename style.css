@@ -1,0 +1,69 @@
+body {
+    text-align: center;
+    padding: 70px;
+    margin: 20px;
+    family-fonts: arial;
+ }
+
+.pageadvancesearch {
+    border: 3px solid #2965d6;
+    border-style: double;
+    padding: 50px;
+    margin: 50px;
+ }
+
+.form1 {
+  text-align: left;
+  margin: 50px;
+  padding: 10px;
+  border-color: #2965d6;
+}
+
+input {
+    width: 300px;
+    height: 20px;
+    text-transform: capitalize;
+  }
+
+input:focus{
+    background-color: transparent;
+ }
+
+ label {
+   text-align: left;
+   width: 20%
+ }
+ h5 {
+   font-family: arial;
+   font-weight: normal;
+ }
+.pageadvancesearch #num {
+  border-radius: 3px;
+  border:1px solid black;
+  padding: 5px;
+  margin: 5px;
+  height: 30px;
+  width: 23%;
+}
+ .pageadvancesearch #input1 {
+    border-radius: 3px;
+    border:1px solid black;
+    padding: 5px;
+    margin: 5px;
+    height: 30px;
+    width: 50%;
+ }
+
+input[type=submit]{
+    cursor: pointer;
+    border: 1px solid black;
+    background-color: #2965d6;
+    color: white;
+    margin-left: 550px;
+    height: auto;
+    width: auto;
+ }
+ .form1 #btn:hover {
+  background-color: white;
+  color: #2965d6;
+}
